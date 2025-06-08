@@ -1,0 +1,5 @@
+<svg data-nav-component="search" class="svg-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="4.5" cy="4.5" r="4" stroke="currentColor"></circle>
+        <circle cx="4.5" cy="4.5" r="4" stroke="currentColor" stroke-opacity="0.2"></circle>
+        <rect x="7.08594" y="7.79297" width="1" height="5.09141" transform="rotate(-45 7.08594 7.79297)" fill="currentColor"></rect>
+    </svg>
