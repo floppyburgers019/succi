@@ -13,121 +13,46 @@
   justify-content: space-between;
   align-items: center;
   height: 55px;
-  border-bottom: 0.1px solid black;
-  padding-bottom: 5px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background-color: white;
 }
-.nav-container .left-navbar ul, .right-navbar ul{
-  list-style: none;
-}
-.left-navbar ul li, .right-navbar ul li{
-  display: inline-block;
-  padding: 12px;
-}
-.left-navbar ul li a, .right-navbar ul li a{
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 13px;
-  line-height: 20px;
-  letter-spacing: 0.6px;
-  color: black;
-  cursor: pointer;
-  transition: font-weight 0.35s ease;
-}
-.right-navbar ul li a img{
-  margin-right: 5px;
-}
-.left-navbar ul li a:hover, .right-navbar ul li a:hover{
-  font-weight: bold;
+.logo img{
+  height: 35px;
 }
 .image-container{
+  margin-top:70px;
   width: 450px;
-  height: 650px;
-  border: 0.0001px solid black;
-  position: absolute;
-  top: 15%;
-  left: 30%;
+  height: 550px;
+  transform: translateX(95%);
 }
 .image-container img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.news-letter{
-  margin-top:200px;
-  padding: 20px;
-  position: relative;
-  top: 100%;
-  left: 27%;
-  width: 700px;
-  height: auto;
-}
-#heading-newsLetter{
-  text-transform: uppercase;
-  font-size: 13px;
-  line-height: 28px;
-}
-#sub-heading{
-  font-size: 13px;
-  line-height: 28px;
-}
-.news-letter input{
-  margin-top: 10px;
-  width: 80%;
-  height: 45px;
-  padding: 10px;
-  text-align: left;
-  background-color: whitesmoke;
-  border: 0.1px solid black;
-}
-.contact-us{
+.footer{
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 380px;
-  position: absolute;
-  width: 100%;
-  height:200px;
-  border: 0.1px solid rgb(179, 176, 176);
-  left: 0%;
-  top: 100%;
+  align-items: flex-end;
+  height: 40px;
+  border-top: 0.1px solid rgb(156, 151, 151);
+  padding: 10px;
 }
-
-.contact , .help , .client-services ,.company {
-  margin-top: 10px;
+.news-letter ul, .copy-right ul{
+  list-style: none;
 }
-.contact p, .help p, .client-services p,.company p{
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 22px;
-  margin-bottom: 10px;
+.news-letter ul li, .copy-right ul li{
+  display: inline;
+  padding: 12px;
 }
-.contact ul, .help ul, .client-services ul, .company ul{
+.news-letter ul li a, .copy-right ul li a{
   text-decoration: none;
-}
-.contact ul li, .help ul li, .client-services ul li, .company ul li{
-  display: block;
-  padding-bottom: 7px;
-}
-.contact ul li a, .help ul li a, .client-services ul li a, .company ul li a{
-  text-decoration: none;
-  font-size: 13px;
-  line-height: 22px;
+  color: black;
+  font-size: 12px;
+  line-height: 20px;
   letter-spacing: 0.6px;
-  text-transform: capitalize;
-  cursor: pointer;
 }
-.contact sup, .help sup, .client-services sup, .company sup{
-  font-size: 11px;
-  color: rgb(131, 126, 126);
-  margin-left: 5px;
+.news-letter ul li a:hover, .copy-right ul li a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 5px;
 }
-.company{
-  margin-right: 100px;
-}
-
