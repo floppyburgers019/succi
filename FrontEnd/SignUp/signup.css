@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+.banner{
+  width: 100%;
+  height: 200vh;
+}
+.header h3{
+  text-align: center;
+}
+.bodyx{
+  transform: translateX(40%);
+  margin-top: 100px;
+}
+.bodyx label{
+  display: block;
+  margin-bottom: 10px;
+}
+.bodyx input{
+  width: 70%;
+  height: 55px;
+  border: 0.1px solid black;
+  border-radius: 25px;
+}
+.authentication-container{
+  margin-top: 60px;
+  width: 800px;
+  height: 600px;
+  padding: 20px;
+  transform: translateX(27%);
+}
+.authentication-container h3{
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+}

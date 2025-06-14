@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica";
 }
 .banner{
   width: 100%;
@@ -13,15 +13,85 @@
   justify-content: space-between;
   align-items: center;
   height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 0.1px solid black;
+  z-index: 1000;
 }
-.logo img{
+.left-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.left-navbar .logo img{
   height: 35px;
+  vertical-align: middle;
+  margin-right: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.left-navbarx{
+  margin-left: 20px;
+}
+.left-navbarx ul{
+  list-style:none;
+}
+.left-navbarx ul li{
+  display: inline;
+  padding: 12px 14px;
+}
+.left-navbarx ul li a{
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  color: black;
+  text-transform: uppercase;
+}
+.left-navbarx ul li a:hover{
+  font-weight: bold;
+}
+.left-navbarx img{
+  height: 11px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.right-navbar{
+  margin-right: 20px;
+}
+.right-navbar ul{
+  list-style: none;
+}
+.right-navbar ul li{
+  display: inline;
+  padding: 12px 14px;
+}
+.right-navbar ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:11px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  color: black;
+}
+.right-navbar ul li a:hover{
+  font-weight: bold;
+}
+.right-navbar img{
+  height: 11px;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 .image-container{
-  margin-top:70px;
   width: 450px;
   height: 550px;
-  transform: translateX(95%);
+  border: 0.1px solid black;
+  margin-top: 80px;
+  transform: translateX(100%);
 }
 .image-container img{
   width: 100%;
@@ -29,12 +99,12 @@
   object-fit: cover;
 }
 .footer{
-  margin-top: 60px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  margin-top: 75px;
   height: 40px;
-  border-top: 0.1px solid rgb(156, 151, 151);
+  border-top: 0.1px solid rgb(115, 105, 105);
   padding: 10px;
 }
 .news-letter ul, .copy-right ul{
@@ -42,17 +112,18 @@
 }
 .news-letter ul li, .copy-right ul li{
   display: inline;
-  padding: 12px;
 }
 .news-letter ul li a, .copy-right ul li a{
   text-decoration: none;
-  color: black;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.6px;
+  color: black;
 }
-.news-letter ul li a:hover, .copy-right ul li a:hover{
+.copy-right ul li a{
+  cursor: text;
+}
+.news-letter ul li a:hover{
   font-weight: bold;
   text-decoration: underline;
-  margin-bottom: 5px;
 }
